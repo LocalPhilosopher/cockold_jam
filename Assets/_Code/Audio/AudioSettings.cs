@@ -1,5 +1,4 @@
 using UnityEngine;
-using Tools;
 
 namespace Audio
 {
@@ -28,13 +27,11 @@ namespace Audio
         public void ToggleSound(bool isOn)
         {
             isSound = isOn;
-            Debugger.Log($"Sound {isOn}");
         }
 
         public void ToggleMusic(bool isOn)
         {
             isMusic = isOn;
-            Debugger.Log($"Music {isOn}");
         }
     }
 }
