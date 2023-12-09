@@ -1,4 +1,5 @@
 using System;
+using _Code.Level;
 using UnityEngine;
 
 namespace TarodevController
@@ -220,6 +221,7 @@ namespace TarodevController
         {
             _rb.simulated = false;
             animator.HideVisual();
+            LevelController.Instance.LevelEnd();
             Debug.Log("DEAD!");
         }
 
