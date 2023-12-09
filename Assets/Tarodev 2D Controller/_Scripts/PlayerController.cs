@@ -31,6 +31,7 @@ namespace TarodevController
 
         private float _time;
 
+        public PlayerAnimator Animator => animator;
         private void Awake()
         {
             _rb = GetComponent<Rigidbody2D>();
@@ -69,7 +70,7 @@ namespace TarodevController
 
         public void DeactivateRb()
         {
-            _rb.isKinematic = false;
+            _rb.simulated = false;
         }
         private void FixedUpdate()
         {
@@ -201,7 +202,7 @@ namespace TarodevController
         
         public void Die()
         {
-            _rb.isKinematic = true;
+            _rb.simulated = false;
             animator.HideVisual();
             Debug.Log("DEAD!");
         }
