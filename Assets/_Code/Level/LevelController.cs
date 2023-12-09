@@ -15,9 +15,17 @@ namespace _Code.Level
                 Destroy(gameObject);
         }
 
+        public void LevelStart()
+        {
+            UISceneManager.Instance.FadeOut();;
+        }
+
         public void LevelEnd()
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            UISceneManager.Instance.FadeIn(() =>
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            });
         }
     }
 }
