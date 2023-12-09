@@ -193,6 +193,15 @@ namespace TarodevController
             if (_stats == null) Debug.LogWarning("Please assign a ScriptableStats asset to the Player Controller's Stats slot", this);
         }
 #endif
+        
+        public void Die()
+        {
+        }
+
+        public void SetSetSpeedModifier(float modifier)
+        {
+            
+        }
     }
 
     public struct FrameInput
