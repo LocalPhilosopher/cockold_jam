@@ -24832,7 +24832,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
-  m_Size: {x: 1.4, y: 1.4}
+  m_Size: {x: 1.6, y: 1.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -24907,6 +24907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _stats: {fileID: 11400000, guid: 05e6a06c5af93134ab98ff12e2c27265, type: 2}
+  animator: {fileID: 7658255960285465100}
 --- !u!50 &5913849006036457436
 Rigidbody2D:
   serializedVersion: 4

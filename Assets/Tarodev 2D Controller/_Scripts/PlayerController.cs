@@ -14,6 +14,7 @@ namespace TarodevController
     public class PlayerController : MonoBehaviour, IPlayerController
     {
         [SerializeField] private ScriptableStats _stats;
+        [SerializeField] private PlayerAnimator animator;
         private Rigidbody2D _rb;
         private CapsuleCollider2D _col;
         private FrameInput _frameInput;
@@ -196,6 +197,8 @@ namespace TarodevController
         
         public void Die()
         {
+            _rb.isKinematic = true;
+            animator.HideVisual();
             Debug.Log("DEAD!");
         }
 
