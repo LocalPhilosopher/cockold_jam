@@ -8,6 +8,8 @@ namespace _Code.Level
     public sealed class LevelController : MonoBehaviour
     {
         [SerializeField] private PlayerController player;
+        [SerializeField] private AudioSource source;
+        [SerializeField] private AudioClip deathSFX;
         public static LevelController Instance;
 
         public PlayerController Player => player;
@@ -39,6 +41,7 @@ namespace _Code.Level
 
         public void LevelFailed()
         {
+            source.PlayOneShot(deathSFX);
             UISceneManager.Instance.FadeInWithoutAnim(() =>
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

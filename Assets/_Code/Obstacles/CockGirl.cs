@@ -47,9 +47,9 @@ namespace _Code.Obstacles
                     brokenHeart.gameObject.SetActive(true);
                     source.PlayOneShot(brokenHeartSfx);
                     Time.timeScale = 1;
+                    source.PlayOneShot(loseSfx);
                     seq.Append(basket.DOLocalMove(Vector3.zero, .4f).OnComplete(() =>
                     {
-                        source.PlayOneShot(loseSfx);
                         LevelController.Instance.Player.DeactivateRb();
                         player.Animator.HideVisual();
                         LevelController.Instance.LevelEnd();
