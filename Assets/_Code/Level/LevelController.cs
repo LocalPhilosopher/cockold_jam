@@ -10,6 +10,7 @@ namespace _Code.Level
         [SerializeField] private PlayerController player;
         [SerializeField] private AudioSource source;
         [SerializeField] private AudioClip deathSFX;
+        [SerializeField] private int _goToSceneAftetrWinIndex;
         public static LevelController Instance;
 
         public PlayerController Player => player;
@@ -35,7 +36,7 @@ namespace _Code.Level
         {
             UISceneManager.Instance.FadeIn(() =>
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                SceneManager.LoadScene(_goToSceneAftetrWinIndex);
             });
         }
 
