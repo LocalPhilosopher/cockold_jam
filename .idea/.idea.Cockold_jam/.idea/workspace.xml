@@ -3,15 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ea18ac1c-73e4-479d-8a6e-a3b8bb78eb84" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cockold_jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cockold_jam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tarodev 2D Controller/Prefabs/Player Controller.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tarodev 2D Controller/Prefabs/Player Controller.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/Level/LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Level/LevelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/CockGirl.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/CockGirl.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Level2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Sounds/Heartbreak.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Sounds/Heartbreak.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Sounds/Lose.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Sounds/Lose.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Sounds/MetalGear.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Sounds/MetalGear.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Sounds/tindeck_1.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Sounds/tindeck_1.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/UI/LaunchButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/UI/LaunchButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Menu.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +14,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Code/Obstacles/FallingPlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Code/UI/LaunchButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.9/Editor/BurstAotCompiler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Editor/EventSystem/EventTriggerEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/EventSystem/SelectableTests.cs" root0="SKIP_HIGHLIGHTING" />
