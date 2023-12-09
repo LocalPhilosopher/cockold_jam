@@ -13,6 +13,7 @@ namespace _Code.Obstacles
             if (other.gameObject.TryGetComponent(out PlayerController player))
             {
                 Triggered?.Invoke();
+                GetComponent<Collider2D>().enabled = false;
             }
         }
     }
