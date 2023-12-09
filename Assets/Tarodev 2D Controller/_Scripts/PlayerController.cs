@@ -67,6 +67,10 @@ namespace TarodevController
             }
         }
 
+        public void DeactivateRb()
+        {
+            _rb.isKinematic = false;
+        }
         private void FixedUpdate()
         {
             CheckCollisions();
