@@ -210,96 +210,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4197763885133849746, guid: 96e62e80e0ee2f84e888d9ffa1c62886,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4197763885133849746, guid: 96e62e80e0ee2f84e888d9ffa1c62886,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4197763885133849746, guid: 96e62e80e0ee2f84e888d9ffa1c62886,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4197763885133849746, guid: 96e62e80e0ee2f84e888d9ffa1c62886,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4197763885133849746, guid: 96e62e80e0ee2f84e888d9ffa1c62886,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 4197763885133849746, guid: 96e62e80e0ee2f84e888d9ffa1c62886,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 500
-      objectReference: {fileID: 0}
     - target: {fileID: 4615589428794610460, guid: 96e62e80e0ee2f84e888d9ffa1c62886,
         type: 3}
       propertyPath: m_Name
       value: UISceneManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 6266968593752566146, guid: 96e62e80e0ee2f84e888d9ffa1c62886,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 848361f034bfd004da6458b0c66e7f50,
-        type: 3}
-    - target: {fileID: 6266968593752566146, guid: 96e62e80e0ee2f84e888d9ffa1c62886,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6266968593752566146, guid: 96e62e80e0ee2f84e888d9ffa1c62886,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6266968593752566146, guid: 96e62e80e0ee2f84e888d9ffa1c62886,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6266968593752566146, guid: 96e62e80e0ee2f84e888d9ffa1c62886,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7177914254862650267, guid: 96e62e80e0ee2f84e888d9ffa1c62886,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7177914254862650267, guid: 96e62e80e0ee2f84e888d9ffa1c62886,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7177914254862650267, guid: 96e62e80e0ee2f84e888d9ffa1c62886,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7177914254862650267, guid: 96e62e80e0ee2f84e888d9ffa1c62886,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7177914254862650267, guid: 96e62e80e0ee2f84e888d9ffa1c62886,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 58
-      objectReference: {fileID: 0}
-    - target: {fileID: 7177914254862650267, guid: 96e62e80e0ee2f84e888d9ffa1c62886,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
