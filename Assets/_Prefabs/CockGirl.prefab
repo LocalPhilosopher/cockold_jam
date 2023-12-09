@@ -86,6 +86,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 5224013915826239008}
   basket: {fileID: 6534026600979674101}
+  metalGearSfx: {fileID: 8300000, guid: b42e8e7b2b7b9c849b038d0e51701f5f, type: 3}
   brokenHeartSfx: {fileID: 8300000, guid: 55d0414c8419a324397fb4a3096e3596, type: 3}
   loseSfx: {fileID: 8300000, guid: 7bbb4577a0e552546a17206fd16fd067, type: 3}
   heart: {fileID: 8282860045591286527}

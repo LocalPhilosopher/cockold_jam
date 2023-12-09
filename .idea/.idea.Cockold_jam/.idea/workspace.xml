@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea18ac1c-73e4-479d-8a6e-a3b8bb78eb84" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/UI/UIEye.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cockold_jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cockold_jam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tarodev 2D Controller/_Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tarodev 2D Controller/_Scripts/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Code/Obstacles/CockGirl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Obstacles/CockGirl.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/CockGirl.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/CockGirl.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/UI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/TestLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/TestLevel.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
