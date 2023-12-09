@@ -197,6 +197,11 @@ namespace TarodevController
         public void Die()
         {
         }
+
+        public void SetSetSpeedModifier(float modifier)
+        {
+            
+        }
     }
 
     public struct FrameInput
