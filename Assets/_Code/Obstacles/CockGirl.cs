@@ -41,13 +41,13 @@ namespace _Code.Obstacles
                 // Time.fixed = .1f;
                 
                 var seq = DOTween.Sequence();
+                source.PlayOneShot(loseSfx);
                 seq.AppendInterval(.15f).OnComplete(() =>
                 {
                     heart.gameObject.SetActive(false);
                     brokenHeart.gameObject.SetActive(true);
                     source.PlayOneShot(brokenHeartSfx);
                     Time.timeScale = 1;
-                    source.PlayOneShot(loseSfx);
                     seq.Append(basket.DOLocalMove(Vector3.zero, .4f).OnComplete(() =>
                     {
                         LevelController.Instance.Player.DeactivateRb();
