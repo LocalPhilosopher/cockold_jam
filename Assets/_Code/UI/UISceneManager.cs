@@ -25,5 +25,12 @@ namespace _Code
                 callback?.Invoke();
             });
         }
+        public void FadeInWithoutAnim(Action callback)
+        {
+            fadeImage.DOColor(new Color(0, 0, 0, 1), .5f).OnComplete(() =>
+            {
+                callback?.Invoke();
+            });
+        }
     }
 }

@@ -36,5 +36,13 @@ namespace _Code.Level
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             });
         }
+
+        public void LevelFailed()
+        {
+            UISceneManager.Instance.FadeInWithoutAnim(() =>
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            });
+        }
     }
 }
