@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea18ac1c-73e4-479d-8a6e-a3b8bb78eb84" name="Changes" comment="" />
+    <list default="true" id="ea18ac1c-73e4-479d-8a6e-a3b8bb78eb84" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cockold_jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cockold_jam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free/Background/Blue.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Free/Background/Blue.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free/Background/Brown.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Free/Background/Brown.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free/Background/Gray.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Free/Background/Gray.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free/Background/Green.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Free/Background/Green.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free/Background/Pink.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Free/Background/Pink.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free/Background/Purple.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Free/Background/Purple.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free/Background/Yellow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Free/Background/Yellow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tarodev 2D Controller/Sprites/Circle.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tarodev 2D Controller/Sprites/Circle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tarodev 2D Controller/Sprites/Circle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tarodev 2D Controller/Sprites/Circle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Obstacles/FallingPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Obstacles/FallingPlatform.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_Code/Obstacles/FallingPlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.9/Editor/BurstAotCompiler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Editor/EventSystem/EventTriggerEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/EventSystem/SelectableTests.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">

@@ -2,6 +2,7 @@ using System;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace _Code.Obstacles
 {
@@ -28,6 +29,7 @@ namespace _Code.Obstacles
         {
             _standZone.Triggered -= OnTriggered;
         }
+
 
         private void OnTriggered()
         {
