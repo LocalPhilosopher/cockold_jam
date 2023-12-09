@@ -2,11 +2,13 @@ using System;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace _Code.Obstacles
 {
     public sealed class FallingPlatform : MonoBehaviour
     {
+        [SerializeField] private FallingPlatformStandZone _standZone;
         [SerializeField] private float _stabilityDuration;
         [SerializeField] private float _shakingAnimationDuration;
         [SerializeField] private float _fallingAnimationDuration;
@@ -14,19 +16,32 @@ namespace _Code.Obstacles
         private SpriteRenderer _spriteRenderer;
         private Collider2D _collider2d;
 
+        private bool _isFalling;
+
         private void Awake()
         {
+            _standZone.Triggered += OnTriggered;
             _collider2d = GetComponent<Collider2D>();
             _spriteRenderer = GetComponent<SpriteRenderer>();
         }
 
-        private void OnCollisionEnter2D(Collision2D other)
+        private void OnDestroy()
+        {
+            _standZone.Triggered -= OnTriggered;
+        }
+
+
+        private void OnTriggered()
         {
             PrepareToFall().Forget();
         }
 
         private async UniTaskVoid PrepareToFall()
         {
+            if (_isFalling)
+                return;
+            
+            _isFalling = true;
             await UniTask.Delay(TimeSpan.FromSeconds(_stabilityDuration));
 
             var sequence = DOTween.Sequence();
