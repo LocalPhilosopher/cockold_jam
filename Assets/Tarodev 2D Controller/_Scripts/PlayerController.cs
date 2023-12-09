@@ -196,6 +196,7 @@ namespace TarodevController
         
         public void Die()
         {
+            Debug.Log("DEAD!");
         }
 
         public void SetSetSpeedModifier(float modifier)
