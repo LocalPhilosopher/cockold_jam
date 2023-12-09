@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,6 +14,11 @@ namespace _Code.Level
                 Instance = this;
             else
                 Destroy(gameObject);
+        }
+
+        private void Start()
+        {
+            LevelStart();
         }
 
         public void LevelStart()
