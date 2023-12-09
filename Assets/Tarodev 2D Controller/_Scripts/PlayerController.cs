@@ -15,6 +15,8 @@ namespace TarodevController
     {
         [SerializeField] private ScriptableStats _stats;
         [SerializeField] private PlayerAnimator animator;
+        [SerializeField] private Transform _camPos;
+
         private Rigidbody2D _rb;
         private CapsuleCollider2D _col;
         private FrameInput _frameInput;
@@ -30,10 +32,12 @@ namespace TarodevController
         #endregion
 
         private float _time;
+        private Vector3 _camPosBasePosition;
 
         public PlayerAnimator Animator => animator;
         private void Awake()
         {
+            _camPosBasePosition = _camPos.transform.localPosition;
             _rb = GetComponent<Rigidbody2D>();
             _col = GetComponent<CapsuleCollider2D>();
 
@@ -42,6 +46,16 @@ namespace TarodevController
 
         private void Update()
         {
+            if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                _camPos.localPosition = new Vector3(-_camPosBasePosition.x, _camPosBasePosition.y, 0);
+            }
+            
+            if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                _camPos.localPosition = new Vector3(_camPosBasePosition.x, _camPosBasePosition.y, 0);
+            }
+            
             _time += Time.deltaTime;
             GatherInput();
         }
@@ -72,6 +86,8 @@ namespace TarodevController
         {
             _rb.simulated = false;
         }
+        
+        
         private void FixedUpdate()
         {
             CheckCollisions();

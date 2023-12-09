@@ -41,7 +41,7 @@ namespace _Code.Obstacles
 
         private void OnDrawGizmosSelected()
         {
-            var y = -_smashDistance - transform.localScale.y / 2;
+            var y = -_smashDistance - 0.5f;
             Gizmos.DrawLine(
                     transform.position + new Vector3(-1, y),
                     transform.position + new Vector3(+1, y));
