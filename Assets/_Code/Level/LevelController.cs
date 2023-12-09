@@ -1,4 +1,5 @@
 using System;
+using TarodevController;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,8 +7,10 @@ namespace _Code.Level
 {
     public sealed class LevelController : MonoBehaviour
     {
+        [SerializeField] private PlayerController player;
         public static LevelController Instance;
 
+        public PlayerController Player => player;
         private void Awake()
         {
             if (Instance == null)

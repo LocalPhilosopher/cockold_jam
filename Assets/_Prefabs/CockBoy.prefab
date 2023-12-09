@@ -19891,6 +19891,37 @@ Transform:
   - {fileID: 4047537161592336172}
   m_Father: {fileID: 8084027722298167083}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3645770652099676812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5829902964184987177}
+  m_Layer: 6
+  m_Name: CamPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5829902964184987177
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3645770652099676812}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.04, y: 0.89, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7897391699027353126}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3674018316226633129
 GameObject:
   m_ObjectHideFlags: 0
@@ -24892,6 +24923,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8084027722298167083}
+  - {fileID: 5829902964184987177}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1055699027014747403
@@ -24908,6 +24940,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _stats: {fileID: 11400000, guid: 05e6a06c5af93134ab98ff12e2c27265, type: 2}
   animator: {fileID: 7658255960285465100}
+  _camPos: {fileID: 5829902964184987177}
 --- !u!50 &5913849006036457436
 Rigidbody2D:
   serializedVersion: 4
@@ -24967,8 +25000,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.827255}
-  m_Size: {x: 0.9, y: 1.65451}
+  m_Offset: {x: 0, y: 0.7693646}
+  m_Size: {x: 0.9, y: 1.7702909}
   m_Direction: 0
 --- !u!1 &5769990472351776423
 GameObject:
