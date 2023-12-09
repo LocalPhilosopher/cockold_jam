@@ -9,8 +9,10 @@ namespace _Code.Obstacles
 {
     public class CockGirl : MonoBehaviour
     {
+        [SerializeField] private AudioSource source;
         [SerializeField] private Transform basket;
         [SerializeField] private AudioClip brokenHeartSfx;
+        [SerializeField] private AudioClip loseSfx;
         [SerializeField] private Transform heart;
         [SerializeField] private Transform brokenHeart ;
 
@@ -28,20 +30,23 @@ namespace _Code.Obstacles
             {
                 if (_entered)
                     return;
-                heart.gameObject.SetActive(false);
-                brokenHeart.gameObject.SetActive(true);
                 _entered = true;
                 basket.gameObject.SetActive(true);
                 basket.position = player.transform.position + Vector3.up * 100;
                 basket.parent = player.transform;
                 Time.timeScale = .1f;
                 // Time.fixed = .1f;
+                
                 var seq = DOTween.Sequence();
-                seq.AppendInterval(.3f).OnComplete(() =>
+                seq.AppendInterval(.15f).OnComplete(() =>
                 {
+                    heart.gameObject.SetActive(false);
+                    brokenHeart.gameObject.SetActive(true);
+                    source.PlayOneShot(brokenHeartSfx);
                     Time.timeScale = 1;
                     seq.Append(basket.DOLocalMove(Vector3.zero, .2f).OnComplete(() =>
                     {
+                        source.PlayOneShot(loseSfx);
                         LevelController.Instance.Player.DeactivateRb();
                         player.Animator.HideVisual();
                         LevelController.Instance.LevelEnd();

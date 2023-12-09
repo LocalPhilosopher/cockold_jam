@@ -221,7 +221,7 @@ namespace TarodevController
         {
             _rb.simulated = false;
             animator.HideVisual();
-            LevelController.Instance.LevelEnd();
+            LevelController.Instance.LevelFailed();
             Debug.Log("DEAD!");
         }
 
