@@ -66,6 +66,10 @@ namespace TarodevController
             HandleCharacterTilt();
         }
 
+        public void HideVisual()
+        {
+            _sprite.color = new Color(0, 0, 0,0);
+        }
         private void HandleSpriteFlip()
         {
             if (_player.FrameInput.x != 0) _sprite.flipX = _player.FrameInput.x < 0;
