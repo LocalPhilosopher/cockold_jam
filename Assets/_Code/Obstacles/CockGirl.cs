@@ -11,6 +11,7 @@ namespace _Code.Obstacles
     {
         [SerializeField] private AudioSource source;
         [SerializeField] private Transform basket;
+        [SerializeField] private AudioClip metalGearSfx;
         [SerializeField] private AudioClip brokenHeartSfx;
         [SerializeField] private AudioClip loseSfx;
         [SerializeField] private Transform heart;
@@ -35,6 +36,8 @@ namespace _Code.Obstacles
                 basket.position = player.transform.position + Vector3.up * 100;
                 basket.parent = player.transform;
                 Time.timeScale = .1f;
+                // source.PlayOneShot(metalGearSfx);
+                // UIEye.Instance.ShowAnim();
                 // Time.fixed = .1f;
                 
                 var seq = DOTween.Sequence();
@@ -44,7 +47,7 @@ namespace _Code.Obstacles
                     brokenHeart.gameObject.SetActive(true);
                     source.PlayOneShot(brokenHeartSfx);
                     Time.timeScale = 1;
-                    seq.Append(basket.DOLocalMove(Vector3.zero, .2f).OnComplete(() =>
+                    seq.Append(basket.DOLocalMove(Vector3.zero, .4f).OnComplete(() =>
                     {
                         source.PlayOneShot(loseSfx);
                         LevelController.Instance.Player.DeactivateRb();
