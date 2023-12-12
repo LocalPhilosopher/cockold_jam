@@ -1,4 +1,4 @@
-#I LOVE LEGS
+# I LOVE LEGS
 A game about the love story between two chicken legs <3
 Project made in 8 hours for jam https://itch.io/jam/cool-code-jam-1
 
